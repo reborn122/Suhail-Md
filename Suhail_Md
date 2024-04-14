@@ -6,10 +6,10 @@
 #     𝗠𝗨𝗟𝗧𝗜𝗗𝗘𝗩𝗜𝗖𝗘 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗨𝗦𝗘𝗥 𝗕𝗢𝗧        #
 #=============================================#
 # 
-#    * @project_name : Suhail-Md
+#    * @project_name : suhailmd 
 #    * @author : @SuhailTechInfo
-#    * @youtube : https://www.youtube.com/c/@SuhailTechInfo
-#    * @description : Suhail-Md ,A Multi-functional whatsapp bot md.
+#    * @youtube : ytv
+#    * @description : xero md ,A Multi-functional whatsapp bot md.
 #    * @version 1.2.9
 # 
 # Don't change this [ /SuhailTechInfo/ ] name!
@@ -17,9 +17,9 @@
 
   
 
-FROM quay.io/suhailtechinfo/suhail-v2
+FROM quay.io/suhailtechinfo/xero-v2
 RUN git clone https://github.com/SuhailTechInfo/Suhail-Md /root/Suhail
-WORKDIR /root/Suhail
+WORKDIR /root/xero
 RUN npm install
 EXPOSE 8000
 CMD ["npm","start" ] 
